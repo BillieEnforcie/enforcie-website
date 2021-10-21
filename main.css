@@ -1,0 +1,149 @@
+body {
+  color:#f2f2f2;
+  background-color: #333333;
+  font-family: "Lucida Console", "Courier", monospace;
+  margin: 0;
+}
+
+header h1 {
+  margin-bottom: 0;
+  margin-left: 16px
+}
+
+header h3 {
+	margin-top: 3px;
+	margin-bottom: 0;
+	margin-left: 24px;
+	font-weight: normal;
+}
+
+main {
+	min-height: 100vh;
+}
+
+h2 {
+  margin-bottom: 0;
+  margin-top: 32px;
+  margin-left: 20px;
+}
+
+nav {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin-top: 8px;
+}
+
+ul li {
+  margin-bottom: 16px;
+}
+
+nav ul {
+  overflow: hidden;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+nav {
+  border-bottom-style: solid;
+  border-width: 1.5px;
+  margin: 0;
+}
+
+#nav-list li {
+  float: left;
+  margin-right: 6%;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+#nav-list li a {
+  text-decoration: none;
+  border-left: solid 1.5px;
+  padding-left: 8px;
+}
+
+#nav-list li:first-child a {
+  border: none;
+}
+
+a {
+  color: #f2f2f2;
+}
+
+a:visited {
+  color: #669900
+}
+
+a:hover {
+  color: #88cc00;
+}
+
+.image-with-caption {
+	margin-left: 30px;
+	margin-top: 12px;
+}
+
+header {
+	text-align: center;
+}
+  
+header, section, article {
+	margin-right: 12px;
+}
+  
+img {
+    width: 250px;
+    height: 188px;
+}
+
+section h3, section p, article p {
+	margin-left: 18px;
+}
+
+section h3 {
+		max-width: 80ch;
+}
+
+section p, article p {
+		max-width: 100ch;
+}
+  
+
+.caption {
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 14px;
+	margin-top: 0;
+	width: 250px;
+}
+
+footer {
+  margin: 16px 16px;
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+	
+	img {
+		width: 500px;
+		height: 375px;
+	}
+	
+	.caption {
+		width: 500px;
+	}
+	
+	header {
+		text-align: left;
+	}
+	
+	#nav-list li {
+		margin-right: 15%;
+	}
+	
+}
